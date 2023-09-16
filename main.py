@@ -53,9 +53,9 @@ df = df.reset_index()
 df['Duration'] = pd.to_timedelta(df["Duration"])
 
 """
-#Next, we are going to filter the Title column so that we can analyze only views belonging to my profile "Ekow". 
+#Next, we are going to filter the Title column so that we can analyze only views belonging to my profile "Darkmatter". 
 #There way will approach it is to create a new dataframe and populate it with only rows where the Title
-#contains the profile name 'Ekow'
+#contains the profile name 'Darkmatter'
 
 #regex=False tells the function that the previous argument is a string not a regex expression
 """
