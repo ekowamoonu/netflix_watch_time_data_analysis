@@ -60,7 +60,7 @@ df['Duration'] = pd.to_timedelta(df["Duration"])
 #regex=False tells the function that the previous argument is a string not a regex expression
 """
 
-movie = df[df['Profile Name'].str.contains('Ekow', regex=False)]
+movie = df[df['Profile Name'].str.contains('Darkmatter', regex=False)]
 
 """
 To test if the new dataframe we have created is actually correct, we can sample X number of rows from the 
